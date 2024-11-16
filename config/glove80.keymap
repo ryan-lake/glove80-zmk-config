@@ -216,7 +216,7 @@
 
 #if __has_include(<dt-bindings/zmk/rgb_colors.h>)
   // ==== PER-KEY-RGB <section begins> ====
-  #include <dt-bindings/zmk/rgb_colors.ixh>
+  #include <dt-bindings/zmk/rgb_colors.h>
   / {
     underglow-layer {
       compatible  = "zmk,underglow-layer";
@@ -1749,7 +1749,7 @@ behaviors {
     // when you raise this value, you should be able to type normally again.
     //
     #ifndef TAPPING_RESOLUTION
-    #define TAPPING_RESOLUTION 150
+    #define TAPPING_RESOLUTION 250
     #endif
 
     //
