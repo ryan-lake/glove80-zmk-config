@@ -11,8 +11,8 @@ jobs:
           submodules: recursive
       - uses: actions/checkout@v4
         with:
-          repository: darknao/zmk
-          ref: ryan-lake/glove80-combined
+          repository: ryan-lake/zmk
+          ref: glove80-combined
           path: src
       - uses: cachix/install-nix-action@v25
         with:
