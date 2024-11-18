@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: ryan-lake/zmk
-          ref: glove80-combined
+          ref: modern-add-per-layer-rgb
           path: src
       - uses: cachix/install-nix-action@v25
         with:
