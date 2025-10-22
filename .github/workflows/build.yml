@@ -11,8 +11,8 @@ jobs:
           submodules: recursive
       - uses: actions/checkout@v4
         with:
-          repository: ryan-lake/zmk
-          ref: modern-add-per-layer-rgb
+          repository: darknao/zmk
+          ref: rgb-layer-25.08
           path: src
       - uses: cachix/install-nix-action@v25
         with:
